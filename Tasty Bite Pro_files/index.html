@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bite</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    color:black;
+    line-height: 1.6;
+}
+.banner img{
+    width:100%;
+    height:360px;
+    object-fit: cover;
+}
+header{
+    background-color: rgb(254, 113, 113);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.about-section h2{
+    font-size: 30px;
+    color: rgb(205, 93, 93);
+    margin-bottom: 10px;
+}
+.aboutcontent{
+    display: flex;
+    font-size: 20px;
+    gap:40px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+    border-radius:10px;
+    margin-bottom:12px;
+}
+.menu-section{
+    padding:40px 20px;
+    background-color: rgb(237, 208, 165);
+    text-align: center;
+}
+.menu-section h2{
+    font-size: 30px;
+    color:  rgb(205, 93, 93);
+    margin-bottom: 30px;
+}
+.menu-item{
+    display: inline-block;
+    width:220px;
+    margin:20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px black;
+    padding:20px;
+}
+.menu-img{
+    width:100%;
+    height:160px;
+    object-fit: cover;
+    border-radius:10px;
+    margin-bottom:12px;
+}
+.dish-name{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#222;
+}
+button{
+    background-color: #ff5e57;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #e04843;
+}
+footer{
+    background-color: rgb(254, 113, 113);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+    margin: 0 8px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tasty Bite</h1>
+    </header>
+    <section Class="banner">
+        <img src="banner.jpg" alt="Tasty bite image">
+    </section>
+    <section class="about-section">
+        <div class="aboutcontent">
+            <p>We are here to Serve you the best Food experience</p>
+            <img src="logo.jpg" alt="Tasty bite logo">
+        </div>
+    </section>
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="pizza2.jpg" class="menu-img">
+            <span class="dish-name" >Ham Burgger </span>
+            <button onclick="window.location.href='page3.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="pizza3.jpg" class="menu-img">
+            <span class="dish-name" >Grilled Knoria </span>
+            <button onclick="window.location.href='page4.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="Grill Chicken.jpg" class="menu-img">
+            <span class="dish-name" >Grill Chicken </span>
+            <button onclick="window.location.href='page5.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="Chicken 65.jpg" class="menu-img">
+            <span class="dish-name" >Chicken 65 </span>
+            <button onclick="window.location.href='page6.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="Rogan Josh.jpg" class="menu-img">
+            <span class="dish-name" >Rogan Josh </span>
+            <button onclick="window.location.href='page7.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="Kosha Mangsho.jpg" class="menu-img">
+            <span class="dish-name" >Kosha Mangsho </span>
+            <button onclick="window.location.href='page8.html'">Order Now</button>
+        </div><div class="menu-item">
+            <img src="pizza1.jpg" class="menu-img">
+            <span class="dish-name" >Salmon Steak</span>
+            <button onclick="window.location.href='page2.html'">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="Shrimp.jpg" class="menu-img">
+            <span class="dish-name" >Shrimp</span>
+            <button onclick="window.location.href='page9.html'">Order Now</button>
+        </div>
+
+    </section>
+    <footer>
+        <p><a href="#">Contact Us</a> <a href="#">FAQ Privacy Policy</a></p>
+        <p>copyright @ 2024 TastyBite</p>
+    </footer>
+    
+</body>
+</html>
